@@ -32,7 +32,7 @@ async def start(b, m):
                     [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS"),
                     [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
                 ]
-            ),
+                 )
             
         )
     else:
@@ -88,7 +88,7 @@ async def help_handler(bot, message):
                     [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
 
                 ]
-            ),
+                 )
             
         )
 
@@ -121,6 +121,6 @@ async def about_handler(bot, message):
                     [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
                
                 ]
-            ),
+                 )
             
         )
