@@ -33,8 +33,8 @@ async def start(b, m):
                     [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
                     ]  
         )
-    else: (
-
+    else: 
+         (
         get_msg = await b.get_messages(chat_id=Var.BIN_CHANNEL, ids=int(usr_cmd))
 
         file_size = None
