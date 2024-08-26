@@ -29,8 +29,8 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /fmhelp ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS"),
-                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")
+                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS")],
+                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
                     ]  
         )
     else:
@@ -82,7 +82,7 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS"),
+                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS")],
                     [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
 
                     ]
@@ -113,7 +113,7 @@ async def about_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                  [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS"),
+                  [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS")],
                     [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
                
                   ]
