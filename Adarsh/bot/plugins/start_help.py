@@ -34,7 +34,7 @@ async def start(b, m):
                     ]  
         )
     else: 
-         (
+        
         get_msg = await b.get_messages(chat_id=Var.BIN_CHANNEL, ids=int(usr_cmd))
 
         file_size = None
