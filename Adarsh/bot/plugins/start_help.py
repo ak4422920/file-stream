@@ -29,8 +29,8 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /fmhelp ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS")],
-                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
+                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Cineoriginals"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/movie_seriesgroup")],
+                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Ak_ownerbot"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/AKMOVIEBOTZ")]
                     ]  
             )
         )
@@ -59,7 +59,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>☣️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @BoB_Files1</b>**"
+        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>☣️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @cineoriginals</b>**"
         await m.reply_text(            
             text=msg_text.format(file_name, file_size, stream_link),
             
@@ -78,13 +78,13 @@ async def help_handler(bot, message):
               
     await message.reply_photo(
             photo="https://te.legra.ph/file/3f5b69785f6f42ca65bcb.mp4",
-            caption="**┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...\n\n┣⪼ ᴛʜɪs ʟɪɴᴋ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴏʀ ᴛᴏ sᴛʀᴇᴀᴍ ᴜsɪɴɢ ᴇxᴛᴇʀɴᴀʟ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀs ᴛʜʀᴏᴜɢʜ ᴍʏ sᴇʀᴠᴇʀs.\n\n┣⪼ ғᴏʀ sᴛʀᴇᴀᴍɪɴɢ ᴊᴜsᴛ ᴄᴏᴘʏ ᴛʜᴇ ʟɪɴᴋ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ᴛᴏ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ.\n\n┣⪼ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟsᴏ sᴜᴘᴘᴏʀᴛ ɪɴ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ʀᴇᴀʟᴛɪᴍᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴏʀ ᴇᴠᴇʀʏ ғɪʟᴇs/ᴠɪᴅᴇᴏs ᴘᴏsʏ../\n\n┣⪼ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :- /filmymen\n\n\nᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜʙsᴄʀɪʙᴇ**", 
+            caption="**┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...\n\n┣⪼ ᴛʜɪs ʟɪɴᴋ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴏʀ ᴛᴏ sᴛʀᴇᴀᴍ ᴜsɪɴɢ ᴇxᴛᴇʀɴᴀʟ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀs ᴛʜʀᴏᴜɢʜ ᴍʏ sᴇʀᴠᴇʀs.\n\n┣⪼ ғᴏʀ sᴛʀᴇᴀᴍɪɴɢ ᴊᴜsᴛ ᴄᴏᴘʏ ᴛʜᴇ ʟɪɴᴋ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ᴛᴏ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ.\n\n┣⪼ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟsᴏ sᴜᴘᴘᴏʀᴛ ɪɴ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ʀᴇᴀʟᴛɪᴍᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴏʀ ᴇᴠᴇʀʏ ғɪʟᴇs/ᴠɪᴅᴇᴏs ᴘᴏsʏ../\n\n┣⪼ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :- /@akmoviebotz\n\n\nᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜʙsᴄʀɪʙᴇ**", 
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS")],
-                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
+                    [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Cineoriginals"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/movie_seriesgroup")],
+                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Ak_ownerbot"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/AKMOVIEBOTZ")]
 
                     ]
         )
@@ -105,7 +105,7 @@ async def about_handler(bot,message):
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
 ┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : ғɪʟᴇ ᴛᴏ ʟɪɴᴋ
-┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/BoB_Files1'>BoB Files</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/Cineoriginals'>Cineoriginals</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
@@ -115,8 +115,8 @@ async def about_handler(bot,message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                  [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/BoB_Files1"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/REQUESTING_MOVIES_SERIES_GROUPS")],
-                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/Assaulter_Shiv"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/Assaulter_shiv")]
+                  [InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs ", url="https://t.me/Cineoriginals"), InlineKeyboardButton(" ᴍᴏᴠɪᴇs ", url="https://t.me/movie_seriesgroup")],
+                    [InlineKeyboardButton(" ᴏᴡɴᴇʀ ", url="https://t.me/ak_ownerbot"), InlineKeyboardButton(" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url="https://t.me/AKMOVIEBOTZ")]
                
                   ]
         )
